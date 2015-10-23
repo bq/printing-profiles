@@ -1,6 +1,8 @@
 
 # Printing profiles for BQ printers
 
+**NOTE:** *These profiles are still a work in progress*
+
 Profiles are divided according to their printer. Available printers are:
 * BQ Witbox 2
 * BQ Hephestos 2
