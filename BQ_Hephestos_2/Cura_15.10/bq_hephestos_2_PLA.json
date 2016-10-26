@@ -1,10 +1,10 @@
 {
-    "id": "bq_witbox_2",
+    "id": "bq_hephestos_2",
     "version": 1, 
-    "name": "BQ Witbox 2",
+    "name": "BQ Hephestos 2 (PLA)",
     "manufacturer": "Other",
     "author": "BQ",
-    "platform": "bq_witbox_platform.stl",
+    "platform": "bq_hephestos_2_platform.stl",
     "inherits": "fdmprinter.json",
 
     "machine_settings": {
@@ -15,13 +15,13 @@
             "default": "; -- END GCODE --\nM801        ; Custom GCODE to fire end print procedure\n; -- end of END GCODE --"
         },
         "machine_width": {
-            "default": 297
-        },
-        "machine_depth": {
             "default": 210
         },
+        "machine_depth": {
+            "default": 297
+        },
         "machine_height": {
-            "default": 200
+            "default": 220
         },
         "machine_heated_bed": {
             "default": false
@@ -33,7 +33,7 @@
             "default": "RepRap"
         },
         "machine_platform_offset": {
-            "default": [0, -145, -38]
+            "default": [-6, 1320, 0]
         }
     },
     "overrides": {
@@ -56,8 +56,8 @@
 	"speed_infill": { "default": 80.0, "visible": true },
 	"speed_topbottom": { "default": 35.0, "visible": false },
 	"skirt_speed": { "default": 35.0, "visible": false },
-	"retraction_amount": { "default": 1.5, "visible": false },
-	"retraction_speed": { "default": 200.0, "visible": false },
+	"retraction_amount": { "default": 2.0, "visible": false },
+	"retraction_speed": { "default": 45.0, "visible": false },
 	"skirt_line_count": { "default": 4 },
 	"skirt_minimal_length": { "default": 30.0, "visible": false },
 	"skirt_gap": { "default": 6.0 },
